@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Fluig</title>
+    <style>
+        .title {
+            font-size: 22px;
+        }
+
+        .description {
+            font-size: 17px;
+        }
+
+        table {
+            width: 100%;
+            padding-bottom: 2px;
+        }
+
+        table tbody {
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        .beneficiado,
+        .aprovadores {
+            color: #484848;
+        }
+    </style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+    <div>
+        <br>
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+                <tr>
+                    <td style="padding: 25px;">
+                        <h3 class="title">
+                            Pagamento Realizado com sucesso!
+                        </h3>
+                        <p class="description">
+                            O pagamento de ${VALOR_TOTAL} referente as despesas da viagem foi efetuado!
+                        </p>
+                        <div class="beneficiado">
+                            <b>Beneficiado:</b> ${NOME_SOLICITANTE}
+                        </div>
+                        <div class="aprovadores">
+                            <p>
+                                <b>Supervisor Aprovador:</b> ${NOME_SUPERVISOR}
+                            </p>
+                            <p>
+                                <b>Gerente Aprovador:</b> ${NOME_GERENTE}
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+</body>
+
+</html>
